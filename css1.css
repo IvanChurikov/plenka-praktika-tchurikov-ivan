@@ -1,0 +1,159 @@
+body {
+	
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+ h1{
+	 margin-left: 35pt
+	 }
+	 p{
+		  margin-left: 35pt 
+		  
+	 }	 
+h2{
+	 margin-left: 35pt 
+	
+}
+.h3{
+	top: 100pt;
+	right: 50pt;
+	position: absolute;
+	font: 11pt Arial, Helvetica, sans-serif;
+}
+.logo{
+	
+	height: 140pt;
+	width: 100%;
+	background-image: url(002.jpg) ;
+	color:white;
+	font-family: FK AgitPropkz;
+	font-size: 23pt;
+	top:0px; 
+	position: absolute;
+	z-index:1;
+}
+.wrapper{
+	margin-top:0;
+	margin-bottom:0;
+	background-color: gray;
+	color:white;
+	height:100%;
+	z-index:1;
+}
+.middle{
+	
+	float: right; /* Обтекание по правому краю */
+    background: #fd0; /* Цвет фона */
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 1000px; /* Отступ справа */
+	margin-left:20pt;
+    width: 30%;
+	height: 20pt;
+	font-size: 8pt;
+	margin-top: -40pt;
+	color: black;
+	position:absolute;
+	z-index:1000;
+}
+@font-face {
+    font-family:FK AgitPropkz ; /* Имя шрифта */
+    src: url(fonts/15391.ttf); /* Путь к файлу со шрифтом */
+   }
+.footer{
+    background-image: url(002.jpg) ;
+    height: 50pt;
+    bottom:0%;
+    left:0px;
+    right:0px;	
+	position: relative;
+	color:white;
+	width: 100%;
+	text-align:center;
+}
+.footerlogo{
+    background-image: url(002.jpg) ;
+    height: 50pt;
+    bottom:0%;
+    left:0px;
+    right:0px;	
+	position: relative;
+	color:white;
+	width: 100%;
+	text-align:center;
+}
+.lastNoutes {
+	margin-top: 40px;
+}
+
+.noute {
+	border-bottom: 2px solid #000;
+	margin: 10px 0;
+	width: 70%;
+	position:relative;
+	font-size: 23pt;
+	z-index: 100;
+	
+	
+	
+}
+
+.noute:last-child {
+	border: none;
+}
+
+.nouteH {
+	color: white;
+	position:relative;
+	z-index: 10;
+	margin-top:500pt;
+	
+}
+
+.nouteImg {
+	float: left;
+	margin-right: 10px;
+}
+
+.nouteImg img {
+	max-width: 250px;
+}
+.centered {
+	text-align: left;
+	white-space: nowrap;
+	position: relative;
+    top: 11px;
+    right: 10px;
+    left: 10px;
+    height: -webkit-calc(50% - 18px);
+    height: calc(50% - 18px); 
+    display: block;
+	
+}
+video {
+	width: 30%;
+	min-width: 250px;
+	z-index: 1;
+}
+.ops{
+	text-align: left;
+	float: right;
+	width: 50%;
+	max-height: 10px;
+	font-size: 18pt;
+	
+	
+}
+.aboutas{
+width: 70%;
+margin-bottom:200pt;
+}
+.girl{
+	margin-bottom:200pt;
+	margin-left:140pt;
+	z-index: 10;
+	position: absolute;
+}
+.nouteSSS{
+margin-top:200pt;
+}
